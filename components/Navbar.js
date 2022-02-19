@@ -6,12 +6,12 @@ import { Fragment } from "react"
 
 const Navbar = () => {
   return (
-    <div className='fixed z-50 w-full'>
+    <div className='z-50 w-full'>
       <Popover className='relative z-10 bg-gray-900'>
         {({ open }) => (
           <div className=''>
             <div className='px-4  mx-auto max-w-7xl sm:px-6'>
-              <div className='flex items-center justify-between py-3 border-b-2 border-secondary md:justify-start md:space-x-8'>
+              <div className='flex items-center justify-between py-3 border-b-2 border-none md:justify-start md:space-x-8'>
                 <div className='flex justify-start lg:w-0 lg:flex-1'>
                   <Link
                     href='/'
@@ -46,7 +46,7 @@ const Navbar = () => {
                   </Link>
 
                   <Link
-                    href='/bioMolecule'
+                    href='/bio'
                     className='px-3 py-2 font-serif text-xl font-medium text-gray-300 no-underline rounded-md font-sourceSerifPro hover:bg-gray-700 hover:text-white'
                   >
                     <a className='px-3 py-2 font-serif text-xl font-medium text-gray-300 no-underline rounded-md font-sourceSerifPro hover:bg-gray-700 hover:text-white'>
@@ -54,7 +54,7 @@ const Navbar = () => {
                     </a>
                   </Link>
 
-                  <Link
+                  {/* <Link
                     href='/chatroom'
                     className='px-3 py-2 font-serif text-xl font-medium text-gray-300 no-underline rounded-md font-sourceSerifPro hover:bg-gray-700 hover:text-white'
                   >
@@ -65,7 +65,7 @@ const Navbar = () => {
 
                   <div className='pl-2 mt-1 cursor-pointer nav-links'>
                     <LogoutIcon className='text-white h-7 w-7 focus:outline-none'></LogoutIcon>
-                  </div>
+                  </div> */}
                 </Popover.Group>
               </div>
             </div>
@@ -125,7 +125,7 @@ const Navbar = () => {
                       </Link>
 
                       <Link
-                        href='/bioMolecule'
+                        href='/bio'
                         className='px-3 py-2 text-xl font-medium text-gray-300 no-underline rounded-md font-sourceSerifPro hover:bg-gray-700 hover:text-white'
                       >
                         <a className='px-3 py-2 text-xl font-medium text-gray-300 no-underline rounded-md font-sourceSerifPro hover:bg-gray-700 hover:text-white'>
