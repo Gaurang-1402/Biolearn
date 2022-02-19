@@ -14,7 +14,7 @@ export default function Bio() {
                 <h1 className="pb-2 text-5xl font-semibold tracking-wide lg:text-6xl">
                     Select Topic
                 </h1>
-                <div className="inline-flex h-1 bg-secondary rounded-full w-96"></div>
+                <div className="inline-flex h-1 bg-secondary rounded-full w-80"></div>
             </div>
 
             <div className="flex flex-wrap flex-col-2 justify-around w-full px-16 py-8">
@@ -29,22 +29,22 @@ export default function Bio() {
                     </div>
                 </Link>
 
-                <Link href='/plantCell' passHref>
-                    <div className="m-8">
-                        <div className="w-72 h-72 cursor-pointer transition duration-500 transform hover:scale-105">
-                            <div className="pb-8 border-4  border-primary rounded-lg">
-                                <Image width="350" height="200" src="/plant_cell.jpeg" alt="" /></div>
-                            <div className="grid -mt-9 place-content-center mx-1 text-xl font-semibold bg-homeImg font-sourceSerifPro">Plant Cell</div>
-                        </div>
-                    </div>
-                </Link>
-
                 <Link href='/animalCell' passHref>
                     <div className="m-8">
                         <div className="w-72 h-72 cursor-pointer transition duration-500 transform hover:scale-105">
                             <div className="pb-8 border-4  border-primary rounded-lg">
                                 <Image width="350" height="200" src="/animal_cell.jpeg" alt="" /></div>
                             <div className="grid -mt-9 place-content-center mx-1 text-xl font-semibold bg-homeImg font-sourceSerifPro">Animal Cell</div>
+                        </div>
+                    </div>
+                </Link>
+
+                <Link href='/plantCell' passHref>
+                    <div className="m-8">
+                        <div className="w-72 h-72 cursor-pointer transition duration-500 transform hover:scale-105">
+                            <div className="pb-8 border-4  border-primary rounded-lg">
+                                <Image width="350" height="200" src="/plant_cell.jpeg" alt="" /></div>
+                            <div className="grid -mt-9 place-content-center mx-1 text-xl font-semibold bg-homeImg font-sourceSerifPro">Plant Cell</div>
                         </div>
                     </div>
                 </Link>
