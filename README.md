@@ -1,4 +1,4 @@
-# APPNAME
+# Biolearn
 
 ## 💡 Inspiration
 
@@ -7,8 +7,6 @@
 ## ⚙️ How we built it
 
 - Next Js: For frontend
-- Firebase: For user authentication
-- Firestore: For Database
 - Three.js: For 3D rendering and animation
 - echo3D: For AR/VR
 
@@ -22,10 +20,8 @@ We are using CircleCI for continuous integration and deployment. CircleCI is a f
 
 - We are using GitHub for collaboration on code.
 - Deploying our web application.
-
-## ⛅ Use of Google Cloud
-
-We are using Firebase for database and authentication. Cloud Firestore is a flexible, scalable real-time, high-performance database for mobile, web, and server development from Firebase and Google Cloud. Firebase is a free service and easy to use.
+- Integraing CircleCI with our web application.
+- Using GitHub to dockerize our web application.
 
 ## 🌐 Best Domain Name from Domain.com
 
@@ -37,4 +33,4 @@ We are using Firebase for database and authentication. Cloud Firestore is a flex
 
 ## 📖 What we learned
 
-## 🚀 What's next for APPNAME
+## 🚀 What's next for Biolearn

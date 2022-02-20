@@ -75,9 +75,9 @@ function Details() {
 
         <div className="grid justify-center grid-cols-1 gap-2 pb-8 mx-8 md:grid-cols-2 lg:grid-cols-2">
           <div className="flex p-6 text-6xl rounded-xl h-48 w-48">
-            {/* <Image width="250" height="250" src="/.jpeg" alt="" /> */}
+            <Image width="250" height="250" src="/animalCell.png" alt="" />
           </div>
-          <a href="https://go.echo3d.co/Kn7b" target="_blank" rel="noreferrer">
+          <a href="https://go.echo3d.co/iJmt" target="_blank" rel="noreferrer">
             <button className="h-12 px-8 ml-8 text-base font-semibold tracking-wider text-white border rounded-full shadow-sm mt-16 bg-red-50 bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 hover:shadow-lg">View in AR</button>
           </a>
         </div>
@@ -105,7 +105,7 @@ export default function Spinal() {
             Human Lungs
           </h1>
           <div className="inline-flex mt-2 h-1 bg-secondary rounded-full w-96"></div>
-          <div className="text-justify text-xl w-86 mt-2 mx-4 md:mx-44">The lungs are the primary organs of the respiratory system in humans and most animals including a few fish, and some snails. In mammals and most other vertebrates, two lungs are located near the backbone on either side of the heart. This work is based on "Segmentation of Lungs and Spinal Column" (https://sketchfab.com/3d-models/segmentation-of-lungs-and-spinal-column-53341767b4a44521b01a42ff8846b089) by gabrielyuen (https://sketchfab.com/gabrielyuen) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/) </div>
+          <div className="text-justify text-xl w-86 mt-2 mx-4 md:mx-44">The lungs are the primary organs of the respiratory system in humans and most animals including a few fish, and some snails. In mammals and most other vertebrates, two lungs are located near the backbone on either side of the heart. This work is based on &quot; Segmentation of Lungs and Spinal Column &quot; (https://sketchfab.com/3d-models/segmentation-of-lungs-and-spinal-column-53341767b4a44521b01a42ff8846b089) by gabrielyuen (https://sketchfab.com/gabrielyuen) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/) </div>
         </div>
 
         <div className="md:grid md:grid-cols-3 md:pr-15 pr-1">
